@@ -1,0 +1,69 @@
+
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+body{
+    min-width: 1152px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.common-inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+
+.header .logo-area .search-icn,
+.header .row-top .top-log .logo-img,
+.container .group-flex1 .control-area .btn-prev,
+.container .group-flex1 .control-area .play-stop .play,
+.container .group-flex1 .control-area .play-stop .pause.active,
+.container .group-col2 .link-more,
+.container .new-infom .button-all,
+.container .sc-imgbanner .control-area .btn-prev,
+.container .sc-imgbanner .play-stop,
+.container .sc-imgbanner .control-area .btn-next
+{
+    background-image: url(../images/icon/sp-img.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.container .group-flex1 .slide.slide1 .title a::before,
+.container .group-flex1 .slide.slide2 .title a::before
+{
+    background-image: url(../images/icon/icn-sp.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.container .sc-service .link-service.ic-reservation::before,
+.container .sc-service .link-service.ic-complaint::before,
+.container .sc-service .link-service.ic-seouljob::before,
+.container .sc-service .link-service.ic-estateinfo::before,
+.container .sc-service .link-service.ic-learning::before,
+.container .sc-service .link-service.ic-welfare::before,
+.container .sc-service .link-service.ic-seoulhouse::before,
+.container .sc-service .link-service.ic-youth::before,
+.container .sc-service .link-service.ic-inmyhand::before,
+.container .sc-service .link-service.ic-democracy::before,
+.container .sc-service .link-service.ic-council::before
+{
+    background-image: url(../images/icon/service-icn.png);
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+.container .sc-sns .link-box .sns-title::after
+{
+    background: url(../images/icon/sns-icon.png);
+    background-size: no-repeat;
+    background-size: 280px;
+}
+
